@@ -1,6 +1,7 @@
+#include "stdafx.h"
 #include "Exchange.h"
 
-namespace AT
+namespace Auto_Trade
 {
 	Exchange::Exchange(void)
 	{

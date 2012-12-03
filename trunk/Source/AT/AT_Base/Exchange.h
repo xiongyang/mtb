@@ -1,9 +1,11 @@
 #pragma once
 #include <string>
-
-namespace AT
+#include "ProPertyMarcoDef.h"
+class Product;
+#include <boost/smart_ptr.hpp>
+#include <vector>
+namespace Auto_Trade
 {
-
 	class Exchange
 	{
 	public:
@@ -16,12 +18,13 @@ namespace AT
 			AT_EXP_GenOrderByTrade 
 		};
 
-
+		typedef boost::shared_ptr<Product>  ProductPtr;
+		std::vector<ProductPtr>  m_ProductTable;
 
 	private:
-		std::string m_ExchangeID;
-		std::string m_ExchangeDescription; //name
-		AT_ExchangeType m_AT_ExchangeType;
+		ProPerty(std::string,ExchangeID);
+		ProPerty(std::string,ExchangeDescription);
+		ProPerty(AT_ExchangeType,ExchangeType);
 	};
 }
 

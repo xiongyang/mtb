@@ -18,9 +18,24 @@
     <ClInclude Include="Exchange.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="ProPertyMarcoDef.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Product.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Exchange.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Product.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

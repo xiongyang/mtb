@@ -5,6 +5,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MD", "MD\MD.vcxproj", "{E17
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AT_Base", "AT_Base\AT_Base.vcxproj", "{064824FF-47EE-4BA5-918C-19ADB8DC9FC9}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestDriverDevelop", "TestDriverDevelop\TestDriverDevelop.vcxproj", "{CB96812E-2C6F-4FDE-B2E0-6C1886CCFAA7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -19,6 +21,10 @@ Global
 		{064824FF-47EE-4BA5-918C-19ADB8DC9FC9}.Debug|Win32.Build.0 = Debug|Win32
 		{064824FF-47EE-4BA5-918C-19ADB8DC9FC9}.Release|Win32.ActiveCfg = Release|Win32
 		{064824FF-47EE-4BA5-918C-19ADB8DC9FC9}.Release|Win32.Build.0 = Release|Win32
+		{CB96812E-2C6F-4FDE-B2E0-6C1886CCFAA7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CB96812E-2C6F-4FDE-B2E0-6C1886CCFAA7}.Debug|Win32.Build.0 = Debug|Win32
+		{CB96812E-2C6F-4FDE-B2E0-6C1886CCFAA7}.Release|Win32.ActiveCfg = Release|Win32
+		{CB96812E-2C6F-4FDE-B2E0-6C1886CCFAA7}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
