@@ -24,6 +24,9 @@
 *.ilk
 *.opensdf
 
+Debug
+Release
+
 /trunk/temp/ctp-trader-demo/ctp-trader-demo/bin/obj/test/test.exe.embed.manifest.res
 /trunk/temp/ctp-trader-demo/ctp-trader-demo/bin/obj/test/test.lastbuildstate
 /trunk/temp/ctp-trader-demo/ctp-trader-demo/bin/obj/test/test_manifest.rc
@@ -32,3 +35,4 @@
 /trunk/Source/AT/Debug
 /trunk/Source/AT/MD/Debug
 /trunk/Source/AT/AT_Base/Debug
+/trunk/source/AT/ipch
