@@ -63,6 +63,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Exchange.cpp" />
+    <ClCompile Include="PriceNumber.cpp" />
     <ClCompile Include="Product.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
@@ -70,6 +71,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Exchange.h" />
+    <ClInclude Include="PriceNumber.h" />
     <ClInclude Include="Product.h" />
     <ClInclude Include="ProPertyMarcoDef.h" />
     <ClInclude Include="stdafx.h" />

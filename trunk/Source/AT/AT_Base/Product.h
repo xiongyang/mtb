@@ -1,6 +1,12 @@
 #pragma once
 #include "ProPertyMarcoDef.h"
 #include <string>
+
+#include "PriceNumber.h"
+
+using boost::uint16_t;
+using boost::uint32_t;
+
 namespace Auto_Trade
 {
 	class Product
@@ -9,7 +15,31 @@ namespace Auto_Trade
 		Product(void);
 		virtual ~Product(void);
 
+
+		enum ProductType
+		{
+			///期货
+			ProductType_Futures = 1,
+			///期权
+			ProductType_Options  =2,
+//			///组合
+//#define THOST_FTDC_PC_Combination '3'
+//			///即期
+//#define THOST_FTDC_PC_Spot '4'
+//			///期转现
+//#define THOST_FTDC_PC_EFP '5'
+		};
+
 		ProPerty(std::string,ProductID);
+		ProPerty(std::string,ProductName);
+		ProPerty(std::string,ExchangeID);
+		ProPerty(char,ProductClass);
+		ProPerty(int,ContactSize); //VolumeMultiple
+		ProPerty(PriceNumber,PriceTick);
+		ProPerty(uint32_t,MaxMarketOrderVolume);
+		ProPerty(uint32_t,MinMarketOrderVolume);
+		ProPerty(uint32_t,MaxLimitOrderVolume);
+		ProPerty(uint32_t,MinLimitOrderVolume);
 
 
 	};
